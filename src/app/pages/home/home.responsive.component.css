@@ -1,0 +1,10 @@
+
+@media screen and (max-width: 600px) {
+    .container__articles {
+        flex-direction: column;
+    }
+
+    .container__articles > .articles__main {
+        margin-bottom: 15px;
+    }
+}
