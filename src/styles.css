@@ -4,6 +4,7 @@
     --default-backgorund: #111111;
     --default-fontcolor: white;
     --default-font: 'segoe UI';
+    --content-fontcolor: grey;
 }
 
 * {

@@ -23,6 +23,6 @@
 }
 
 .big-card__description > p {
-    color: grey;
+    color: var(--content-fontcolor);
     margin-top: 10px;
 }

@@ -14,7 +14,7 @@
 }
 
 .small-card__image {
-    width: 300px;
+    flex: 0 0 150px;
     display: flex;
     align-items: start;
     overflow: hidden;
