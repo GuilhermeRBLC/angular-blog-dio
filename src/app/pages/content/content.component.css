@@ -17,8 +17,8 @@
 }
 
 .content__title {
-    margin: 10px 50px;
-    width: calc(100% - 100px);
+    margin: 10px 40px;
+    width: calc(100% - 80px);
 }
 
 .content__title > h1 {
@@ -27,8 +27,8 @@
 }
 
 .content__description {
-    margin: 0 50px;
-    width: calc(100% - 100px);
+    margin: 0 40px;
+    width: calc(100% - 80px);
     font-size: 16pt;
 }
 
