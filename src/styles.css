@@ -2,12 +2,15 @@
 
 :root {
     --default-backgorund: #111111;
+    --default-fontcolor: white;
+    --default-font: 'segoe UI';
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--default-font);
 }
 
 body {

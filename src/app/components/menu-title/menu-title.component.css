@@ -1,0 +1,19 @@
+.container__menu-title {
+    color: var(--default-fontcolor);
+}
+
+.container__menu-title > h1 {
+    margin: 15px 0;
+    font-size: 12vw;
+    text-transform: uppercase;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.container__menu-title > hr {
+    margin: 10px 0;
+}
+
+
