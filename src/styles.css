@@ -11,8 +11,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--default-font);
+    color: var(--default-fontcolor);
 }
 
 body {
     background-color: var(--default-backgorund);
+}
+
+a {
+    text-decoration: none;
 }
