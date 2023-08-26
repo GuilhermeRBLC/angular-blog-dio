@@ -30,6 +30,7 @@
     margin: 0 40px;
     width: calc(100% - 80px);
     font-size: 16pt;
+    margin-bottom: 50px;
 }
 
 .content__description p {

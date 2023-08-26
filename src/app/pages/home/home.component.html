@@ -6,24 +6,18 @@
 
     <div class="articles__main">
         <app-big-card
-            photoCover="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png"
-            cardTitle="Teste de título"
-            cardDescription="Loren ipsum dolor."
+            id="{{ bigCardData.id }}"
+            photoCover="{{ bigCardData.photo }}"
+            cardTitle="{{ bigCardData.title }}"
+            cardDescription="{{ bigCardData.description }}"
         />
     </div>
 
     <div class="articles__others">
-        <app-small-card
-            photoCover="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png"
-            cardTitle="Teste de título 1"
-        />
-        <app-small-card
-            photoCover="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png"
-            cardTitle="Teste de título 2"
-        />
-        <app-small-card
-            photoCover="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png"
-            cardTitle="Teste de título 3"
+        <app-small-card *ngFor="let post of smallCardData"
+            id="{{ post.id }}"
+            photoCover="{{ post.photo }}"
+            cardTitle="{{ post.title }}"
         />
     </div>
 
